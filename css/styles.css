@@ -1,0 +1,410 @@
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+
+  
+  min-height: 800px;
+  
+  display: flex;
+  gap: 40px;
+
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+
+}
+
+header {
+
+  width: 100%;
+  height: 100%;
+  background-color: tan;
+  display: flex;
+
+  justify-content: left;  
+  text-decoration: solid;
+
+  margin-bottom: 60px;
+
+}
+
+.navbar-brand {
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  margin-left: 30px;
+  color: red;
+}
+
+.navbar-brand:hover {
+
+  color: yellow;
+}
+
+.TestimonialTitleText {
+
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-size: 54px;
+  line-height: 67px;
+  text-align: left;
+
+  margin-left: 35px;
+  margin-right: 35px;
+  background-color: yellow;
+
+}
+
+.cartoonNed {
+
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20pt;
+  line-height: 23px;
+  display: block;
+  text-align: center;
+  flex-direction: column;
+}
+
+
+
+.HighlightboxTextJobs {
+
+  background-color: orange;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.booktitleblockpic {
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.TCcerealPicResults {
+
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+}
+
+.navbar {
+  padding-bottom: 1.5rem;
+  
+  }
+
+
+
+.bookicon {
+
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20pt;
+  line-height: 23px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+}
+
+
+
+
+
+.cartoonNed {
+
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20pt;
+  line-height: 23px;
+  display: block;
+  text-align: center;
+  flex-direction: column;
+}
+
+.bookiconButton {
+
+  width: 50vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20pt;
+  line-height: 23px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+  border: 5px solid red;
+}
+
+
+
+.bookiconButton:hover {
+
+  
+  border: 5px solid aqua;
+
+}
+
+
+
+
+.WalmartCart {
+
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-size: 20pt;
+  line-height: 23px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.paragraphbooktext {
+
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 54px;
+  line-height: 74px;
+  text-align: left;
+
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+
+
+.HighlightboxText {
+
+  background-color: yellow;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.TestimonialTitle {
+
+  background-color: orange;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+.footer {
+  
+  padding: 50px;
+  text-align: center;
+  font-size: 58px;
+  background-color: tan;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+.footertext {
+
+  color: black;
+}
+
+
+@media screen and (min-width:1024px) {
+
+
+  .pro {
+
+    color: red;
+
+    
+
+  }
+
+
+  .booktitleblockpic {
+
+    height: 50%;
+    width: 50%;
+    display: flex;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: row;
+  }
+
+  .paragraphbooktext {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    font-size: 27px;
+    line-height: 37px;
+    text-align: left;
+  
+    margin-left: 35px;
+    margin-right: 35px;
+
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+  
+  }
+
+  .TestimonialTitleText {
+
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: left;
+  
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: yellow;
+  
+  }
+  
+
+  .TCcerealPicResults {
+
+    height: 30%;
+    width: 30%;
+    display: flex;
+  
+    padding-left: 30px;
+    padding-right: 30px;
+  
+  }
+
+  .WalmartCart {
+
+    width: 75vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 20pt;
+    line-height: 23px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .HighlightboxText {
+
+    font-size: 40px;
+
+  }
+
+
+  .footer {
+  
+    padding: 50px;
+    text-align: center;
+    font-size: 48px;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .footertext {
+  
+    color: black;
+  }
+
+  .bookicon {
+
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    font-size: 20pt;
+    line-height: 23px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+
+
+
+}
